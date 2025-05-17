@@ -1,0 +1,15 @@
+[package]
+name = "ultranova-driver"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.98"
+direct_ring_buffer = "0.2.1"
+futures = "0.3.31"
+jack = "0.13.2"
+nusb = "0.1.13"
+tokio = { version = "1.45.0", features = ["full"] }
+tracing = "0.1.41"
+tracing-subscriber = "0.3.19"
+wmidi = "4.0.10"
